@@ -1,0 +1,9 @@
+# --- API ---
+fastapi
+uvicorn[standard]
+# --- Weaviate Client ---
+weaviate-client
+# --- Data Handling ---
+pydantic
+python-dotenv
+pandas

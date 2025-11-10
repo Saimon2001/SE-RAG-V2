@@ -1,0 +1,7 @@
+# Virtual environments
+.venv/
+
+backend\weaviate\proj_data2.json
+
+__pycache__/
+*.py[cod]

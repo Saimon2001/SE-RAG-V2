@@ -10,7 +10,7 @@ def query_filter(request: Request, body: QueryWithFilter):
     try:
         gen = docs.generate.near_text(
             query=body.Query,
-            limit=2,
+            limit=5,
             grouped_task=body.GroupedTask,
             filters=Filter.by_property("string_project").equal(body.Filtro)
         )
@@ -24,7 +24,7 @@ def query_no_filter(request: Request, body: QueryNoFilter):
     try:
         gen = docs.generate.near_text(
             query=body.Query,
-            limit=2,
+            limit=5,
             grouped_task=body.GroupedTask
         )
         return {"response": gen.generative.text}

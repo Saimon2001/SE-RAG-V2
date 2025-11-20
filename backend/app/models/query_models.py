@@ -9,3 +9,6 @@ class QueryWithFilter(QueryBase):
 
 class QueryNoFilter(QueryBase):
     pass
+
+class NaturalQuery(BaseModel):
+    question: str

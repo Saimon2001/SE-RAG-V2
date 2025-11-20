@@ -3,6 +3,8 @@ fastapi
 uvicorn[standard]
 # --- Weaviate Client ---
 weaviate-client
+# --- Ollama ---
+ollama
 # --- Data Handling ---
 pydantic
 python-dotenv

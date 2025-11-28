@@ -15,4 +15,8 @@ docker-compose up -d
 ## FastAPI
 # start API
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn app.main:app --port 8000 --reload
 http://127.0.0.1:8000/docs
+
+## streamlit
+streamlit run frontend/app.py

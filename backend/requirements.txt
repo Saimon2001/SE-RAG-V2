@@ -9,3 +9,6 @@ ollama
 pydantic
 python-dotenv
 pandas
+# --- Front ---
+streamlit 
+requests

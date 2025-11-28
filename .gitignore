@@ -2,6 +2,7 @@
 .venv/
 
 backend\weaviate\proj_data2.json
+backend\weaviate\proj_data3.json
 
 __pycache__/
 *.py[cod]

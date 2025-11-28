@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
         grpc_secure=False,
         additional_config=config
     )
-    docs = client.collections.get("Project")
+    docs = client.collections.get("ProjectSE")
     app.state.weaviate_client = client
     app.state.docs = docs
     print("Weaviate client connected.")
